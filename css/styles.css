@@ -2,7 +2,9 @@
 
 :root {
     --accent-background-color:#2E2F42;
+    --second-background-color:#F4F4FD;
 --headers-text-color:#2E2F42;
+--text-color:#434455;
 }
 
 
@@ -16,6 +18,7 @@ body {
     font-weight: 500;
     text-decoration: none;
     background: #FFFFFF;
+    margin: 0;
 }
 
 a {
@@ -49,7 +52,6 @@ color: #4D5AE5;
 .nav{}
 .nav-list {
     list-style: none;
-    
 }
 
 .nav-item {
@@ -63,9 +65,8 @@ color: var(--headers-text-color);
 color: #4D5AE5;
 }
 
-.contact {
-    
-}
+/*.contact {
+} */
  
 .contact-item {
 display:inline ;  
@@ -75,9 +76,6 @@ display:inline ;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--headers-text-color);
-
-
-    
 }
 
 .contact-item:hover, .contact-item:focus {
@@ -104,15 +102,17 @@ color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    display:inline, center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 
-    position: absolute;
-width: 170px;
-height: 51px;
-left: 635px;
-top: 432px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   padding: 16px 32px;
+   border: none;
+
+ 
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -153,7 +153,7 @@ border-radius: 4px;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
  
@@ -161,7 +161,7 @@ color: #434455;
 
 /* -- WHAT WE ARE DOING -- */
 
-.whatdo {}
+/*.whatdo {}*/
  
 .whatdo-section { 
     font-weight: 700;
@@ -193,7 +193,7 @@ height: 300px;
 /* -- TEAM -- */
  
 .team {
-    background: #F4F4FD;}
+    background: var(--second-background-color);}
 
 .team-sections {
     font-weight: 700;
@@ -216,19 +216,18 @@ color: var(--headers-text-color);
 list-style: none;   
 }
 
-/* -- these items see above - combined with principles -- */
+/* -- these items see above - combined with principles -- 
 .team-name {
 }
 .team-position {
-}
+} 
 
 
  
 /* -- PORTFOLIO PAGE -- */ /* -- PORTFOLIO PAGE -- */
 /* -- PORTFOLIO PAGE -- */ /* -- PORTFOLIO PAGE -- */
 
-.main {
-}
+ 
 
 /* -- Buttons portfolio -- */
 .port-btn-list {
@@ -237,9 +236,7 @@ list-style: none;
     flex-direction: row;
 }
 
-.port-btn-list-item {
-}
-
+ 
 .port-button {
   
 font-size: 16px;
@@ -254,8 +251,6 @@ justify-content: center;
 align-items: center;
 margin: 14px;
 padding: 12px 24px;
-width: auto;
-height: 48px;
 background: #F4F4FD;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
@@ -277,12 +272,12 @@ color: #FFFFFF;
 }
 
 
-/* -- these items see above - combined with principles -- */
+/* -- these items see above - combined with principles 
 .projects-items-name {
 }
 .projects-items-category {
 }
-
+--*/
 
 
 /* -- FOOTER  -- */
@@ -312,12 +307,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-
-width: 264px;
-height: 72px;
-left: 156px;
-top: 1902px;
-}
 
 
 
